@@ -1,1 +1,3 @@
-This is a Google Homepage made for The Odin Project
+Google Homepage clone made for The Odin Project.
+
+Created using HTML and CSS
