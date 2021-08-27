@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: #9D9D9D;
+    color: #FFF;
+}
+
 body {
     background-color: #202124;
     color: #BDC1C6;
