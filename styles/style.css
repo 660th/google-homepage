@@ -102,6 +102,10 @@ nav ul {
     outline: none;
 }
 
+.search-img {
+    opacity: 50%;
+}
+
 button {
     background-color: #303134;
     border: 1px solid #303134;
