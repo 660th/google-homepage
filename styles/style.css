@@ -69,6 +69,7 @@ nav ul {
 
 /*MAIN AREA (Google logo, searchbar and buttons)*/
 /*TODO: Add proper margins between Logo, searchbar & buttons*/
+/*Instead of using margins, padding etc of the actual elements use the divs?*/
 .logo{
     display: block;
     margin-left: auto;
@@ -131,10 +132,17 @@ button:hover {
 /*Add .footer li*/
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     position: fixed;
     bottom: 0px;
     width: 100%;
+    height: 46px;
     background-color: #171717;
+    color: #bdc1c6;
     font-size: 14px;
+    padding: 0 20px;
+} 
+
+.footer li {
+    padding-left: 25px;
 }
