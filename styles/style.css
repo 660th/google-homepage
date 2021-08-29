@@ -31,4 +31,5 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
 }
