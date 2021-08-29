@@ -62,7 +62,7 @@ li {
     margin-right: auto;
     padding-bottom: 25px;
 }
-/*To do: Searchbar:focus remove border*/
+/*To do: Searchbar:focus remove border, add bottom margin*/
 .searchbar {
     display: block;
     background-color: transparent;
