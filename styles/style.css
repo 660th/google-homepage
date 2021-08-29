@@ -64,13 +64,15 @@ li {
 /*To do: Input margin, .searchbar:selected(?)*/
 .searchbar {
     display: block;
-    background: #202124;
-    color: #BDC1C6;
+    background-color: transparent;
+    color: #e8eaed;
     border: 1px solid #5f6368;
     border-radius: 45px;
     width: 548px;
     height: 44px;
     margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
 }
 
 .searchbar:hover {
