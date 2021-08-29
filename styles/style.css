@@ -27,11 +27,30 @@ a:hover {
     text-decoration: underline;
 }
 
+ul,
+li {
+    list-style: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #E4E4E4;
+}
+
+.app-img {
+    opacity: 69%; /* lol */
+}
+
+.prof-img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 32px;
+    height: 100%;
+    max-height: 32px;
 }
 
 .searchbar {
@@ -47,4 +66,12 @@ a:hover {
 .searchbar:hover {
     background: #303134;
     border: 1px solid #303134;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #171717;
+    font-size: 14px;
 }
