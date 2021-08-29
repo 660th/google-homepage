@@ -35,7 +35,7 @@ li {
 }
 
 /*NAVBAR*/
-/*TODO: Make it look like the real navbar using flexbox*/
+/*TODO: Figure out how to padding properly, add margin*/
 nav {
     display: flex;
     width: 100%;
@@ -68,13 +68,15 @@ nav ul {
 }
 
 /*MAIN AREA (Google logo, searchbar and buttons)*/
+/*TODO: Add proper margins between Logo, searchbar & buttons*/
 .logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 25px;
 }
-/*To do: Searchbar: add bottom margin*/
+
+/*TODO: Add Magnifying glass and "X" when there's text in the input field*/
 .searchbar {
     display: block;
     background-color: transparent;
@@ -84,7 +86,8 @@ nav ul {
     width: 548px;
     height: 44px;
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 40px;
+    padding-right: 35px;
     font-size: 16px;
 }
 
@@ -120,7 +123,8 @@ button:hover {
 }
 
 /*FOOTER*/
-/*TODO: Make it look like the real footer using flexbox*/
+/*TODO: Figure out how to padding properly, add margin*/
+/*Add .footer li*/
 .footer {
     display: flex;
     justify-content: center;
