@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+/*General Tweaks*/
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@ li {
     list-style: none;
 }
 
+/*NAVBAR*/
 .navbar {
     display: flex;
     align-items: center;
@@ -53,12 +55,19 @@ li {
     max-height: 32px;
 }
 
+/*MAIN AREA (Google logo, searchbar and buttons)*/
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .searchbar {
+    display: block;
     background: #202124;
     border: 1px solid #5f6368;
     border-radius: 45px;
-    width: auto;
-    max-width: 548px;
+    width: 548px;
     height: 44px;
     margin: 0 auto;
 }
@@ -68,6 +77,24 @@ li {
     border: 1px solid #303134;
 }
 
+button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+/*FOOTER*/
+/*Figure out how to make a good footer*/
 .footer {
     position: fixed;
     bottom: 0px;
