@@ -33,3 +33,18 @@ a:hover {
     justify-content: flex-end;
     font-family: 'Roboto', sans-serif;
 }
+
+.searchbar {
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 45px;
+    width: auto;
+    max-width: 548px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.searchbar:hover {
+    background: #303134;
+    border: 1px solid #303134;
+}
