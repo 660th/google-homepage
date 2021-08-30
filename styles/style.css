@@ -68,18 +68,11 @@ nav ul {
 }
 
 /*MAIN AREA (Google logo, searchbar and buttons)*/
-/*TODO: Add proper margins between Logo, searchbar & buttons*/
-/*Instead of using margins, padding etc of the actual elements use the divs?*/
-
-.logo-section {
+/*Make the entire main section a flex element?*/
+.main {
     display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-
-/*TODO: Add Magnifying glass and "X" when there's text in the input field*/
-.searchbar-section {
-    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -96,11 +89,7 @@ nav ul {
     font-size: 16px;
 }
 
-.searchbar:hover {
-    background: #303134;
-    border: 1px solid #303134;
-}
-
+.searchbar:hover,
 .searchbar:focus {
     background: #303134;
     border: 1px solid #303134;
