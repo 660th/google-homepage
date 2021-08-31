@@ -36,6 +36,11 @@ li {
     display: inline;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 /*NAVBAR*/
 /*TODO: Figure out how to padding properly, add margin*/
 nav {
@@ -54,11 +59,13 @@ nav ul {
 .navbar {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    color: #E4E4E4;
+    color: #e8eaed;
 }
 
 .app-img {
-    fill: #e4e4e4;
+    fill: #e8eaed;
+    max-height: 24px;
+    max-width: 24px;
 }
 
 .prof-img {
@@ -79,16 +86,23 @@ nav ul {
     max-height: 300px;
 }
 
+.logo-img {
+    margin-top: 50px;
+    max-width: 272px;
+}
+
 .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: transparent;
     color: #e8eaed;
     border: 1px solid #5f6368;
     border-radius: 45px;
     width: 100%;
-    max-width: 548px;
-    height: 44px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 584px;
+    height: 45px;
+    padding: 10px 20px 10px 20px;
     font-size: 16px;
 }
 
@@ -101,6 +115,8 @@ nav ul {
 
 .search-img {
     fill: #5f6368;
+    max-height: 24px;
+    max-width: 24px;
 }
 
 .search-button {
@@ -126,8 +142,7 @@ nav ul {
 /*FOOTER*/
 /*TODO: Figure out how to padding properly, add margin*/
 .footer {
-    display: flex;
-    justify-content: flex-start;
+    display: block;
     position: absolute;
     bottom: 0px;
     width: 100%;
