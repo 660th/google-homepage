@@ -87,8 +87,8 @@ nav ul {
 }
 
 .logo-img {
-    margin-top: 50px;
     max-width: 272px;
+    margin-bottom: 25px;
 }
 
 .searchbar-section {
@@ -100,7 +100,8 @@ nav ul {
     border-radius: 45px;
     width: 584px;
     height: 45px;
-    padding: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .searchbar-section:hover,
@@ -127,9 +128,13 @@ nav ul {
     margin-right: 10px;
 }
 
-.search-button {
+.buttons-section {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+}
+
+.search-button {
     background-color: #303134;
     border: 1px solid #303134;
     border-radius: 4px;
@@ -141,7 +146,6 @@ nav ul {
     line-height: 27px;
     height: 36px;
     min-width: 54px;
-    text-align: center;
     cursor: pointer; 
 }
 
