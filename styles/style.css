@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-
 /*General Tweaks*/
 *,
 ::before,
@@ -41,7 +39,6 @@ li {
 }
 
 /*NAVBAR*/
-/*TODO: Figure out how to padding properly, add margin*/
 .navbar {
     position: fixed;
     top: 0px;
@@ -58,7 +55,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .app-img {
@@ -76,14 +73,13 @@ li {
 }
 
 /*MAIN AREA (Google logo, searchbar and buttons)*/
-/*Figure out proper margins*/
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 300px;
-    margin-top: 175px;
+    margin-top: 225px;
 }
 
 .logo-img {
@@ -122,16 +118,16 @@ li {
 }
 
 .search-img {
-    opacity: 75%;
-    width: 25px;
-    height: 25px;
+    opacity: 60%;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
 }
 
 .buttons-section {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 7px;
 }
 
 .search-button {
@@ -154,10 +150,8 @@ li {
 }
 
 /*FOOTER*/
-/*TODO: Figure out how to padding properly, add margin*/
 .footer {
     display: flex;
-    justify-content: flex-start;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -167,10 +161,26 @@ li {
     font-size: 14px;
 }
 
-.footer ul {
+/*
+.footer-list-left {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 15px;
-    gap: 15px;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+.footer-list-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+*/
+
+/*Media Querys*/
+@media (max-width: 610px) {
+    .searchbar-section {
+        width: 95%;
+    }
 }
