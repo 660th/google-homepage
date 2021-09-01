@@ -30,10 +30,8 @@ a:hover {
     text-decoration: underline;
 }
 
-ul,
-li {
+ul {
     list-style: none;
-    display: inline;
 }
 
 img {
@@ -43,23 +41,12 @@ img {
 
 /*NAVBAR*/
 /*TODO: Figure out how to padding properly, add margin*/
-nav {
-    display: flex;
-    width: 100%;
-    min-height: 50px;
-}
-
-nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    padding-right: 15px;
-}
-
 .navbar {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    color: #e8eaed;
+    color: #BDC1C6;
+    width: 100%;
+    height: 50px;
 }
 
 .app-img {
@@ -77,6 +64,7 @@ nav ul {
 }
 
 /*MAIN AREA (Google logo, searchbar and buttons)*/
+/*Figure out proper margins*/
 .main {
     display: flex;
     flex-direction: column;
