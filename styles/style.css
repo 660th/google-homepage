@@ -47,7 +47,7 @@ li {
     min-height: 50px;
     padding: 0 20px;
     justify-content: flex-end;
-    color: #BDC1C6;
+    color: #e8eaed;
     font-size: 13px;
 }
   
@@ -79,7 +79,7 @@ li {
     align-items: center;
     justify-content: center;
     min-height: 300px;
-    margin-top: 225px;
+    margin-top: 150px;
 }
 
 .logo-img {
@@ -152,35 +152,34 @@ li {
 /*FOOTER*/
 .footer {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 46px;
     background-color: #171717;
-    color: #bdc1c6;
+    color: #93979C;
     font-size: 14px;
 }
 
-/*
-.footer-list-left {
+.footer-left,
+.footer-right {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 25px;
 }
 
-.footer-list-right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+.footer-right {
+    margin-right: 30px;
 }
-*/
+
+.footer-link {
+    display: block;
+    padding: 10px 0 10px 30px;
+}
 
 /*Media Querys*/
 @media (max-width: 610px) {
     .searchbar-section {
-        width: 95%;
+        width: 90%;
     }
 }
