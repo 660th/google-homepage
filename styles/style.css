@@ -35,27 +35,25 @@ img {
 
 /*NAVBAR*/
 .navbar {
-    position: fixed;
-    top: 0px;
     display: flex;
-    width: 100%;
-    min-height: 50px;
-    padding: 0 20px;
+    align-items: center;
     justify-content: flex-end;
+	position: fixed;
+    top: 0px;
+    width: 100%;
     color: #e8eaed;
     font-size: 13px;
 }
-  
-.navbar ul {
+
+.nav-list {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
+	margin-right: 15px;
 }
 
-.navbar li {
-    list-style: none;
-    display: inline;
+.nav-link {
+    display: block;
+    padding: 10px 0 10px 20px;
 }
 
 .app-img {
