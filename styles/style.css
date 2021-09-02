@@ -33,11 +33,6 @@ img {
     width: 100%;
 }
 
-li {
-    list-style: none;
-    display: inline;
-}
-
 /*NAVBAR*/
 .navbar {
     position: fixed;
@@ -56,6 +51,11 @@ li {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
 }
 
 .app-img {
@@ -83,6 +83,7 @@ li {
 }
 
 .logo-img {
+    width: 100%;
     max-width: 272px;
     margin-bottom: 25px;
 }
